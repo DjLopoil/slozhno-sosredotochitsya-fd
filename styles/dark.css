@@ -5,6 +5,6 @@
 */
 
 :root.theme-dark {
-  --bg-color: rgba(0, 0, 40, 1) ;
+  --bg-color: rgba(0, 0, 40, 1);
   --bg-img: url('../images/cover-image-dark.png');
 }
