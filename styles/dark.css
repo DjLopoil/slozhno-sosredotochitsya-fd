@@ -7,4 +7,15 @@
 :root.theme-dark {
   --bg-color: rgba(0, 0, 40, 1);
   --bg-img: url('../images/cover-image-dark.png');
+  --color-big-text: rgba(219, 0, 255, 1);
+  --color-accent: rgba(255, 0, 112, 1);
+  --color-text: rgba(241, 178, 206, 1);
+  --color-triangle: rgba(255, 0, 112, 1); 
+  --color-theme-button: rgba(255, 0, 112, 1);
+  --shadow-text: 4px 4px 0 var(--color-accent);
+  --color-title-text: rgba(0, 0, 40, 1);
+
+  .header__decorative-dark {
+    display: block;
+  }
 }
