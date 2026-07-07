@@ -17,7 +17,7 @@
   display: grid;
   justify-self: center;
   align-self: center;
-  padding: var(--padding, 0.625rem);
+  padding: var(--padding-all-pages, 0.625rem);
 }
 
 .decorated-zone {
@@ -42,8 +42,8 @@
 }
 
 .decorated-zone::after {
-  inset-block-end: var(--padding, 0.625rem);
-  inset-inline-start: var(--padding, 0.625rem);
+  inset-block-end: var(--padding-all-pages, 0.625rem);
+  inset-inline-start: var(--padding-all-pages, 0.625rem);
   border-top: none;
   border-right: none;
 }
@@ -107,7 +107,7 @@
 
 .content {
   font-size: var(--text-size, 1.125rem);
-  padding: var(--padding);
+  padding: var(--padding-all-pages);
   margin-block-start: 2.5rem;
   writing-mode: horizontal-tb;
 }
@@ -182,5 +182,5 @@
   align-items: center;
   text-align: center;
   position: relative;
-  padding: var(--padding);
+  padding: var(--padding-all-pages);
 }
