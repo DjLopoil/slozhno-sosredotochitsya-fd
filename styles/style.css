@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   font-family: var(--main-font, 'IBM Plex mono'),  sans-serif;
   font-size: var(--text-size, 1.125rem);
+  line-height: 23.4px;
 }
 
 .header {
@@ -137,6 +138,10 @@
   color: var(--color-big-text, rgba(219, 0, 255, 1));
   text-shadow: var(--shadow-text, 4px 4px 0 var(--color-accent, rgba(255, 0, 112, 1)));
   align-self: center;
+  margin-inline-start: calc(-1 * var(--padding-all-pages, 0.625rem));
+}
+
+.header__text {
 }
 
 .content {
