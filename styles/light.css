@@ -5,43 +5,43 @@
 */
 
 :root.theme-light {
-  --bg-color:rgba(255, 241, 247, 1);
+  --bg-color: rgba(255, 241, 247, 1);
   --bg-img: url('../images/cover-image-light.png');
   --color-big-text: rgba(255, 194, 230, 1);
   --color-accent: rgba(255, 141, 203, 1);
   --color-text: rgba(53, 52, 48, 1);
-  --color-triangle: rgba(53, 52, 48, 1); 
+  --color-triangle: rgba(53, 52, 48, 1);
   --color-theme-button: rgba(53, 52, 48, 1);
   --shadow-text: 4px 4px 0 var(--color-accent);
   --color-title-text: rgba(53, 52, 48, 1);
+}
 
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgba(50, 49, 45, 0.4);
-  }
-  
-  .header__decorative-dark {
-    display: none;
-  }
+:root.theme-light .header__theme-menu-button:hover {
+  outline: 1px solid rgba(50, 49, 45, 0.4);
+}
+
+:root.theme-light .header__decorative-dark {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-color:rgba(255, 241, 247, 1);
-  --bg-img: url('../images/cover-image-light.png');
-  --color-big-text: rgba(255, 194, 230, 1);
-  --color-accent: rgba(255, 141, 203, 1);
-  --color-text: rgba(53, 52, 48, 1);
-  --color-triangle: rgba(53, 52, 48, 1); 
-  --color-theme-button: rgba(53, 52, 48, 1);
-  --shadow-text: 4px 4px 0 var(--color-accent);
-  --color-title-text: rgba(53, 52, 48, 1);
-  
-  .header__theme-menu-button:hover {
+    --bg-color: rgba(255, 241, 247, 1);
+    --bg-img: url('../images/cover-image-light.png');
+    --color-big-text: rgba(255, 194, 230, 1);
+    --color-accent: rgba(255, 141, 203, 1);
+    --color-text: rgba(53, 52, 48, 1);
+    --color-triangle: rgba(53, 52, 48, 1);
+    --color-theme-button: rgba(53, 52, 48, 1);
+    --shadow-text: 4px 4px 0 var(--color-accent);
+    --color-title-text: rgba(53, 52, 48, 1);
+  }
+
+  :root .header__theme-menu-button:hover {
     outline: 1px solid rgba(50, 49, 45, 0.4);
   }
 
-  .header__decorative-dark {
+  :root .header__decorative-dark {
     display: none;
   }
-}  
 }
