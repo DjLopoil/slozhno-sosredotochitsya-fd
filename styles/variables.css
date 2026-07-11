@@ -2,7 +2,7 @@
   --bg-color: rgba(0, 0, 40, 1);
   --bg-img: url('../images/cover-image-dark.png');
   --main-font: 'IBM Plex mono';
-  --big_text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --big-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-size: 1.125rem;
   --text-regular: 400;
   --padding-all-pages: 0.625rem;
@@ -16,11 +16,13 @@
   --color-triangle: rgba(255, 0, 112, 1);
   --color-theme-button: rgba(255, 0, 112, 1);
   --color-title-text: rgba(0, 0, 40, 1);
+  --color-title-section: rgba(255, 0, 112, 1);
+
 }
 
 @media (min-width: 768px) {
   :root {
-    --big_text-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --big-text-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --padding-all-pages: 1.25rem;
     --decorate-triangle-indent: 1.25rem;
     --gap-img: 1.25rem;

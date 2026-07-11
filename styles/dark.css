@@ -14,7 +14,12 @@
   --color-theme-button: rgba(255, 0, 112, 1);
   --shadow-text: 4px 4px 0 var(--color-accent);
   --color-title-text: rgba(0, 0, 40, 1);
+  --color-title-section: rgba(255, 0, 112, 1);
 }
+
+:root.theme-dark .header__theme-menu-button:hover {
+    outline: 1px solid rgba(255, 0, 112, 0.4);
+  }
 
 :root.theme-dark .header__decorative-dark {
   display: block;

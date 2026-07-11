@@ -14,6 +14,7 @@
   --color-theme-button: rgba(53, 52, 48, 1);
   --shadow-text: 4px 4px 0 var(--color-accent);
   --color-title-text: rgba(53, 52, 48, 1);
+  --color-title-section:: rgba(53, 52, 48, 1);
 }
 
 :root.theme-light .header__theme-menu-button:hover {
@@ -35,6 +36,7 @@
     --color-theme-button: rgba(53, 52, 48, 1);
     --shadow-text: 4px 4px 0 var(--color-accent);
     --color-title-text: rgba(53, 52, 48, 1);
+    --color-title-section:: rgba(53, 52, 48, 1);
   }
 
   :root .header__theme-menu-button:hover {

@@ -28,6 +28,7 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
+  right: 0;
   width: 25px;
   height: 25px;
   border: 1px solid var(--color-triangle, rgba(255, 0, 112, 1));
@@ -56,6 +57,8 @@
 
 .header__decorative-dark {
   position: absolute;
+  top: 0;
+  right: 0;
   align-items: center;
   line-height: 25px;
   color: var(--color-accent, rgba(255, 0, 112, 1));
@@ -137,7 +140,7 @@
 }
 
 .title {
-  font-size: var(--big_text-size, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
+  font-size: var(--big-text-size, clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem));
   font-weight: bold;
   line-height: 83%;
   text-transform: lowercase;
@@ -210,7 +213,7 @@ h1.title {
 
 .content__section-title {
   font-size: var(--text-size, 1.125rem);
-  color: var(--color-accent, rgba(255, 0, 112, 1));
+  color: var(--color-title-section, rgba(255, 0, 112, 1));
   margin-block-end: 20px;
 }
 
@@ -255,6 +258,12 @@ h1.title {
   font-size: var(--text-size, 1.125rem);
 }
 
+.content__section-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .content__section-list-item:not(:last-of-type) {
   margin-block-end: 20px;
 }
@@ -262,7 +271,6 @@ h1.title {
 .content__section-list-item-title {
   font-size: var(--text-size, 1.125rem);
   line-height: 23.4px;
-  margin-block-end: 10px;
 }
 
 .text-no-bold {
@@ -336,6 +344,7 @@ h1.title {
   display: grid;
   grid-template-columns: 1fr;
   block-size: 100vh;
+  min-height: 668px;
   align-items: center;
   text-align: center;
   position: relative;
