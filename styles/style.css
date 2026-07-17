@@ -2,12 +2,12 @@
 
 .page {
   background-color: var(--bg-color, rgba(0, 0, 40, 1));
-  background-image: var(--bg-img, url('../images/cover-image-dark.png'));
+  background-image: var(--bg-img, url("../images/cover-image-dark.png"));
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  font-family: var(--main-font, 'IBM Plex mono'), sans-serif;
+  font-family: var(--main-font, "IBM Plex mono"), sans-serif;
   font-size: var(--text-size, 1.125rem);
   line-height: 23.4px;
 }
@@ -145,7 +145,10 @@
   line-height: 83%;
   text-transform: lowercase;
   color: var(--color-big-text, rgba(219, 0, 255, 1));
-  text-shadow: var(--shadow-text, 4px 4px 0 var(--color-accent, rgba(255, 0, 112, 1)));
+  text-shadow: var(
+    --shadow-text,
+    4px 4px 0 var(--color-accent, rgba(255, 0, 112, 1))
+  );
   align-self: center;
 }
 
@@ -203,7 +206,6 @@ h1.title {
 }
 
 @media (min-width: 768px) {
-
   .content__section:nth-child(odd) {
     display: grid;
     grid-template-columns: min-content 1fr;
@@ -259,9 +261,9 @@ h1.title {
 }
 
 .content__section-list-item {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .content__section-list-item:not(:last-of-type) {

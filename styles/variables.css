@@ -1,7 +1,7 @@
 :root {
   --bg-color: rgba(0, 0, 40, 1);
-  --bg-img: url('../images/cover-image-dark.png');
-  --main-font: 'IBM Plex mono';
+  --bg-img: url("../images/cover-image-dark.png");
+  --main-font: "IBM Plex mono";
   --big-text-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-size: 1.125rem;
   --text-regular: 400;
@@ -17,7 +17,6 @@
   --color-theme-button: rgba(255, 0, 112, 1);
   --color-title-text: rgba(0, 0, 40, 1);
   --color-title-section: rgba(255, 0, 112, 1);
-
 }
 
 @media (min-width: 768px) {
